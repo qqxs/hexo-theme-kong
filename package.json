@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-kong",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": "git@github.com:qqxs/hexo-theme-kong.git",
   "author": "ShineShao <xiaoshaoqq@gmail.com>",
   "license": "MIT",
@@ -22,7 +22,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "nodemon -e yml,ejs --ignore public/ -L --exec 'hexo server'"
+    "server": "nodemon -e yml,ejs --ignore public/ -L --exec 'hexo server'",
+    "pub": "node pub.js"
   },
   "dependencies": {
     "hexo": "^6.3.0",
@@ -42,6 +43,7 @@
     "hexo-wordcount": "^6.0.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "shelljs": "^0.8.5"
   }
 }
