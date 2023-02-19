@@ -299,8 +299,8 @@ googleAnalytics:
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
 baiduAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: 50c47ad58047f480726591cca679297b
 
 # 百度搜索资源平台提交链接
 baiduPush: true
@@ -320,7 +320,7 @@ libs:
     gallery: /css/gallery.css
     fontAwesome: /libs/awesome/css/all.min.css # V6.1.2 20220809
     materialize: /libs/materialize/materialize.min.css # 1.0.0 20211109
-    aos: /libs/aos/aos.css
+    aos: https://unpkg.com/aos@2.3.1/dist/aos.css #/libs/aos/aos.css
     animate: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css #/libs/animate/animate.min.css # V3.5.1
     lightgallery: /libs/lightGallery/css/lightgallery.min.css # V1.10.0
     jqcloud: /libs/jqcloud/jqcloud.css
@@ -333,7 +333,7 @@ libs:
     jquery: /libs/jquery/jquery-3.6.0.min.js #3.6.0 20211109
     materialize: /libs/materialize/materialize.min.js # 1.0.0
     masonry: /libs/masonry/masonry.pkgd.min.js # v4.0.0
-    aos: /libs/aos/aos.js
+    aos: https://unpkg.com/aos@2.3.1/dist/aos.js # /libs/aos/aos.js
     scrollProgress: /libs/scrollprogress/scrollProgress.min.js
     lightgallery: /libs/lightGallery/js/lightgallery-all.min.js # V1.10.0
     typed: /libs/typed/typed.js
