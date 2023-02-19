@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-kong",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "git@github.com:qqxs/hexo-theme-kong.git",
   "author": "ShineShao <xiaoshaoqq@gmail.com>",
   "license": "MIT",
@@ -14,5 +14,34 @@
     "README_CN.md",
     "README_matery.md",
     "README.md"
-  ]
+  ],
+  "hexo": {
+    "version": "6.3.0"
+  },
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "nodemon -e yml,ejs --ignore public/ -L --exec 'hexo server'"
+  },
+  "dependencies": {
+    "hexo": "^6.3.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-searchdb": "^1.4.1",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-markdown-it-plus": "^1.0.6",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-kong": "^0.1.1",
+    "hexo-wordcount": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
