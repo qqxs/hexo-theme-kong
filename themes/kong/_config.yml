@@ -98,7 +98,7 @@ recommend:
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
 favicon: /favicon.png
-logo: /medias/logo.png
+logo: https://avatars.githubusercontent.com/u/16034259?v=4 #/medias/logo.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -184,7 +184,7 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatar.png
+  avatar: https://avatars.githubusercontent.com/u/16034259?v=4
   career: FE Developer
   introduction: 失败很正常，如果没有经历失败，表示你还不够创新。
 
