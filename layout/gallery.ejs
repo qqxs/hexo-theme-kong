@@ -39,26 +39,9 @@ for (var i = 0, len = photos.length; i < len; i++) {
 
 <div class="container">
     <div class="photo-wrapper">
-        <% if (page.password ) { %>
-
-            <script src="/js/crypto-js.js"></script>
-            <script src="/js/gallery-encrypt.js"></script>
-            <div id="hbe-security">
-                <div class="hbe-input-container">
-                    <input type="password" class="hbe-form-control" id="pass"  placeholder="请输入密码查看内容"/>
-                    <a href="javascript:;" class="btn-decrypt" id="btn_decrypt">解密</a>
-                </div>
-            </div>
-            <div  id="mygallery">
-                <div class="waterfall" id="encrypt-blog" style="display:none">
-                    <%- aes(imageStr, page.password) %>
-                </div>
-            </div>
-        <% } else { %>
-            <div class="waterfall" id="encrypt-blog">
-                <%- imageStr %>
-            </div>
-        <% } %>
+        <div class="waterfall" id="encrypt-blog">
+            <%- imageStr %>
+        </div>
     </div>
 </div>
 

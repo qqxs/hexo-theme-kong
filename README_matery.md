@@ -465,7 +465,6 @@ Everything in the Front-matter option is **not required**. But I still recommend
 
 > **Note**: 
 > 1. post's featured picture will take remainder if not writing the `img` property, and choose the featured picture of theme to let all of post's picture **have their own characteristics**.
-> 3. If you want to set the ability to read the verification password for the article, you should not only set the value of the password with SHA256 encryption in Front-matter, but also activate the configuration in the theme `_config.yml`.
 > 4. you can define reprint policy for a single article in the front-matter of the specific md file using this key: reprintPolicy
 
 The following are examples of the post's `Front-matter`.

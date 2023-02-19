@@ -330,7 +330,6 @@ libs:
     justifiedGallery: /libs/justifiedGallery/justifiedGallery.min.css
   js:
     matery: /js/matery.js
-    sc2tc: /js/tw_cn.js
     jquery: /libs/jquery/jquery-3.6.0.min.js #3.6.0 20211109
     materialize: /libs/materialize/materialize.min.js # 1.0.0
     masonry: /libs/masonry/masonry.pkgd.min.js # v4.0.0
@@ -341,7 +340,6 @@ libs:
     clicklove: /libs/others/clicklove.js
     busuanzi: /libs/others/busuanzi.pure.mini.js
     dplayer: /libs/dplayer/DPlayer.min.js
-    crypto: /libs/cryptojs/crypto-js.min.js
     echarts: /libs/echarts/echarts.min.js
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
