@@ -1,3 +1,1 @@
-# hexo-theme-kong
-
-# test
+## hexo-theme-kong
