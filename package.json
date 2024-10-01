@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-kong",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "repository": "git@github.com:qqxs/hexo-theme-kong.git",
   "author": "ShineShao <xiaoshaoqq@gmail.com>",
   "license": "MIT",
@@ -24,6 +24,7 @@
     "deploy": "hexo deploy",
     "server": "nodemon -e yml,ejs --ignore public/ -L --exec 'hexo server'",
     "dev": "nodemon -e yml,ejs --ignore public/ -L --exec 'hexo server'",
+    "prepublishOnly": "echo \"Error: 请执行 npm run pub 发布npm包 \" && exit 1",
     "pub": "node pub.js"
   },
   "dependencies": {
