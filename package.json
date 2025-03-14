@@ -23,7 +23,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "nodemon -e yml,ejs --ignore public/ -L --exec 'hexo server'",
-    "dev": "nodemon -e yml,ejs --ignore public/ -L --exec 'hexo server'",
+    "dev": "npm run server",
     "prepublishOnly": "echo \"Error: 请执行 npm run pub 发布npm包 \" && exit 1",
     "pub": "node pub.js"
   },
